@@ -91,7 +91,6 @@ h1 {
   height: auto;
 }
 
-/* ▼ スマホ時：PDFボタン文字サイズを強制調整 */
 @media screen and (max-width: 768px) {
   .pdf-link-wrap .pdf-btn {
     font-size: 14px !important;
@@ -100,5 +99,6 @@ h1 {
     letter-spacing: 0.02em !important;
   }
 }
+
 
 
