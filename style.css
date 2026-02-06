@@ -127,3 +127,38 @@ footer {
   text-decoration: underline;
 }
 
+/* 共通ボタンデザイン */
+.pdf-btn {
+  display: inline-block;
+  padding: 16px 28px;
+  background-color: #1e4ea1;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+/* センター寄せ */
+.pdf-link-wrap {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* 初期状態：スマホ用は非表示 */
+.pdf-sp {
+  display: none;
+}
+
+/* スマホだけ切り替え */
+@media (max-width: 768px) {
+  .pdf-pc {
+    display: none;
+  }
+  .pdf-sp {
+    display: inline-block;
+  }
+}
+
