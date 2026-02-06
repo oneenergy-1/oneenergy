@@ -91,3 +91,13 @@ h1 {
   height: auto;
 }
 
+/* スマホ時：資料ボタンの文字調整 */
+@media (max-width: 768px) {
+  .pdf-btn {
+    font-size: 15px;        /* 少し小さく */
+    line-height: 1.4;       /* 行間を詰める */
+    padding: 16px 20px;     /* 横の余白を少し減らす */
+    letter-spacing: 0.02em;
+  }
+}
+
